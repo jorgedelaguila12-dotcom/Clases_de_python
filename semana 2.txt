@@ -1,0 +1,32 @@
+semana 2
+
+a = 2
+b = 5.
+c = 3+1j
+d = complex(3,2)
+print(type(a),type(b),type(c))
+
+
+a = 5; b = 2 # puedes declarar asi, varias variables
+print(a+b)
+print(a/float(b))
+
+
+a = 3.
+b = 2+3j
+c = a+b
+print(c)
+print(type(c))
+
+
+a = 5.
+b = 3.
+print(a/b)
+print(a//b)
+print(a%b)
+print(int(a)%int(b))
+
+
+base = 50 ; altura = 20
+print(base*altura)
+
