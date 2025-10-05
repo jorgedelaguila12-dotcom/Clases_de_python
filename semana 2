@@ -1,0 +1,167 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOPWlnylzjzuwLi2u5Nd6xG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jorgedelaguila12-dotcom/Clases_de_python/blob/main/semana%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ql8bHeCTHX6L",
+        "outputId": "6970658b-1ed4-4bca-ec91-4a95b15a2b34"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'> <class 'float'> <class 'complex'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = 2\n",
+        "b = 5.\n",
+        "c = 3+1j\n",
+        "d = complex(3,2)\n",
+        "\n",
+        "print(type(a),type(b),type(c))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5; b = 2 # puedes declarar asi, varias variables\n",
+        "print(a+b)\n",
+        "print(a/float(b))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jD_RoApGUEob",
+        "outputId": "aac03ee4-0a98-4b45-867d-6cf11080d718"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "7\n",
+            "2.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 3.\n",
+        "b = 2+3j\n",
+        "c = a+b\n",
+        "print(c)\n",
+        "print(type(c))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xZh0z-CMVkUe",
+        "outputId": "a9ffb01d-9333-405e-e31a-3d24ac0f2044"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(5+3j)\n",
+            "<class 'complex'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 5.\n",
+        "b = 3.\n",
+        "print(a/b)\n",
+        "print(a//b)\n",
+        "print(a%b)\n",
+        "print(int(a)%int(b))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wKoEcYpAWZfT",
+        "outputId": "e2dffcf5-e4e2-4be3-c58c-abb7c0426d1a"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1.6666666666666667\n",
+            "1.0\n",
+            "2.0\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "base = 50 ; altura = 20\n",
+        "print(base*altura)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X8mbfl5XY4dD",
+        "outputId": "826711b7-20a1-4879-9dd8-687ec5698c10"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1000\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
